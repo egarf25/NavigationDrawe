@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="egaakakom.gmail.com.firdauscv.WorkActivity"
+    tools:showIn="@layout/activity_work">
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:paddingTop="15dp"
+        android:layout_marginBottom="340dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tableLayout"
+        android:layout_alignEnd="@+id/tableLayout"
+        app:srcCompat="@drawable/pic_work" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:paddingTop="180dp"
+        android:stretchColumns="1">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:padding="3dp"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="Nama Perusahaan" />
+
+            <TextView
+                android:padding="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tahun" android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:padding="3dp"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="Djaki Digital cutting" />
+
+            <TextView
+                android:padding="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2015" android:textAlignment="center" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:padding="3dp"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="LP3I Cirebon" />
+
+            <TextView
+                android:padding="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2016" android:textAlignment="center" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:padding="3dp"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="PT. Teja Berlian Cirebon" />
+
+            <TextView
+                android:padding="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2016" android:textAlignment="center" />
+        </TableRow>
+
+
+    </TableLayout>
+</RelativeLayout>

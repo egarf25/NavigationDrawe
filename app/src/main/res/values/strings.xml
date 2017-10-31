@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Firdaus Cv</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_profile">Profile</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_contoh_gallery">ContohGallery</string>
+    <string name="title_activity_contoh_gallery2">ContohGallery2</string>
+    <string name="title_activity_profilenav">ProfilenavActivity</string>
+    <string name="title_activity_edu">EduActivity</string>
+    <string name="title_activity_work">WorkActivity</string>
+    <string name="title_activity_workt">WorktActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_gallery">GalleryActivity</string>
+</resources>
